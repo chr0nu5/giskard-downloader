@@ -1,0 +1,20 @@
+{
+  "name": "downloader",
+  "version": "1.0.0",
+  "description": "Free Interwebs",
+  "main": "src/downloader.js",
+  "author": "Jonathan Querubina <jotadev@me.com>",
+  "contributors": [],
+  "license": "MIT",
+  "giskard": {
+    "module": "Downloader",
+    "created": "Tue Jun 07 2016 22:45:07 GMT-0300 (BRT)",
+    "help": {
+      "quero baixar o filme <nome>": "entrega links diretos para baixar",
+      "quero baixar o arquivo <nome>": "procura torrents com o nome fornecido"
+    }
+  },
+  "dependencies": {
+    "thepiratebay": "^1.1.3"
+  }
+}
