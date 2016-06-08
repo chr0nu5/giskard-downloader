@@ -1,4 +1,5 @@
-var Base = requireBaseModule();
+var Base = requireBaseModule(),
+    tpb = require('thepiratebay');
 
 var Downloader = function(bot) {
     Base.call(this, bot);
